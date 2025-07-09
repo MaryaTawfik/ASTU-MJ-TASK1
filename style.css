@@ -1,0 +1,213 @@
+.c1{background-color: #e89da4;
+    width: 1512px;
+    height: 982px;
+    border-radius: 31px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+   
+}
+
+
+.c2{
+    background-image: url(assets/bany.jpg);
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1166px;
+    height: 785px;
+    top: 94px;
+    left: 165px;
+    border-radius: 46px;
+    border: 1px;
+   opacity: 40%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+     width: 1166px;
+    height: 785px;
+    top: 94px;
+    left: 165px;
+    border-radius: 46px;
+    border: 1px;
+    gap:5px;
+   
+}
+
+.market{
+    width: 715px;
+    height: 64px;
+    left:3px;
+    border-radius: 21px;
+    background-color:#FFD4D4;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 4%;
+    padding-left: 20px;
+    font-family:'Reem Kufi Ink', sans-serif;
+
+}
+   
+
+.code{
+    width: 715px;
+    height: 64px;
+    top:85px ;
+    border-radius: 21px;
+    background-color:#FFD4D4;
+    font-family:'Reem Kufi Ink', sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    size: 32px;
+    letter-spacing: 4%;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 4%;
+    padding-left: 20px;
+    
+    
+   
+}
+.hadith{
+    width: 715px;
+    height: 64px;
+    top: 560px;
+    left: 366px;
+    border-radius: 21px;
+    opacity: 60%;
+    background-color:#FFD4D4 ;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 4%;
+    padding-left: 20px;
+     font-family: 'Reem Kufi Ink';
+
+}
+
+.arabic{width: 715px;
+    height: 64px;
+    top: 640;
+    left: 366px;
+    border-radius: 21px;
+    opacity: 63%;
+    background-color: #FFD4D4;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 4%;
+    padding-left: 20px;
+    font-family: 'Reem Kufi Ink';
+
+}
+
+
+h1{
+    width: 482px;
+    height: 114px;
+    top:159px;
+    left: 577px;
+    font-family: 'carter one',sans-serif;
+    font-weight: 400;
+    size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #730002;
+    text-align: center;
+    font-style: normal;
+   
+}
+
+h3{
+    width: 222px;
+    height: 30px;
+    top: 349px;
+    left:615px;
+    font-family: 'ream Kufi Ink',sans-serif;
+    font-weight: 400;
+   size: 20px;
+   line-height: 100%;
+   letter-spacing: 0%;
+   color:#730002;
+    
+}
+
+
+
+img{
+    width: 210px;
+    height: 210;
+    top: 696px;
+    left: 643px;
+    opacity: 60%;
+}
+
+.ur_task{
+    
+    
+    width:715px;
+    height: 79px;
+    top: 237px;
+    left: 369px;
+    border-radius: 53px;
+    background-color: #FFD4D4;
+    font-size: 28px;
+    font: 'Reem Kufi Ink';
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-left: 30px;
+}
+
+.pen{
+    scale:fit;
+    width: 55px;
+    height: 44px;
+    top:11px;
+    left: 580px;
+}
+
+.c-in {
+    position: relative;
+    width: 715px;
+    
+}
+
+.pen, .x {
+    position: absolute;
+    top: 10px; 
+    opacity: 1;
+}
+
+
+
+.x {
+    right: 10px; 
+    width: 53px; 
+    height: 45px; 
+   
+}
+.task{
+    position: relative;
+    width: 715;
+    
+}
+
+
+
+
+.add {
+    position: absolute;
+    top: 20%;
+    right: 10px; 
+    width: 60px;
+    height: 50px; 
+    opacity: 1;
+   
+   
+    
+}
+
