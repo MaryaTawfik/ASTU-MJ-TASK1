@@ -1,12 +1,15 @@
 .c1{background-color: #e89da4;
     width: 1512px;
-    height: 982px;
+    height: 50em;
     border-radius: 31px;
     display: flex;
     justify-content:center;
     align-items: center;
     
    
+}
+body{background-color: #e89da4;
+
 }
 
 
@@ -15,8 +18,8 @@
    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1166px;
-    height: 785px;
+    width: 80em;
+    height:10em;
     top: 94px;
     left: 165px;
     border-radius: 46px;
@@ -26,18 +29,18 @@
     align-items:center;
     flex-direction: column;
      width: 1166px;
-    height: 785px;
+    height: 780px;
     top: 94px;
     left: 165px;
     border-radius: 46px;
     border: 1px;
     gap:5px;
-   
+   margin: 40%;
 }
 
-.market{
-    width: 715px;
-    height: 64px;
+.in{
+    width: 700px;
+    height: 50px;
     left:3px;
     border-radius: 21px;
     background-color:#FFD4D4;
@@ -51,65 +54,14 @@
 }
    
 
-.code{
-    width: 715px;
-    height: 64px;
-    top:85px ;
-    border-radius: 21px;
-    background-color:#FFD4D4;
-    font-family:'Reem Kufi Ink', sans-serif;
-    font-weight: 400;
-    line-height: 100%;
-    size: 32px;
-    letter-spacing: 4%;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 4%;
-    padding-left: 20px;
-    
-    
-   
-}
-.hadith{
-    width: 715px;
-    height: 64px;
-    top: 560px;
-    left: 366px;
-    border-radius: 21px;
-    opacity: 60%;
-    background-color:#FFD4D4 ;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 4%;
-    padding-left: 20px;
-     font-family: 'Reem Kufi Ink';
 
-}
-
-.arabic{width: 715px;
-    height: 64px;
-    top: 640;
-    left: 366px;
-    border-radius: 21px;
-    opacity: 63%;
-    background-color: #FFD4D4;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 4%;
-    padding-left: 20px;
-    font-family: 'Reem Kufi Ink';
-
-}
 
 
 h1{
     width: 482px;
     height: 114px;
-    top:159px;
-    left: 577px;
+    /* top:159px;
+    left: 577px; */
     font-family: 'carter one',sans-serif;
     font-weight: 400;
     size: 40px;
@@ -118,6 +70,10 @@ h1{
     color: #730002;
     text-align: center;
     font-style: normal;
+    margin-bottom: 0%;
+    margin-top: 2em;
+    padding-bottom: 0%;
+    padding: 0em;
    
 }
 
@@ -139,9 +95,9 @@ h3{
 
 img{
     width: 210px;
-    height: 210;
-    top: 696px;
-    left: 643px;
+    height: 10em;
+    /* top: 696px;
+    left: 643px; */
     opacity: 60%;
 }
 
@@ -149,9 +105,9 @@ img{
     
     
     width:715px;
-    height: 79px;
-    top: 237px;
-    left: 369px;
+    height: 60px;
+    /* top: 237px; */
+    /* left: 369px; */
     border-radius: 53px;
     background-color: #FFD4D4;
     font-size: 28px;
@@ -160,6 +116,7 @@ img{
     line-height: 100%;
     letter-spacing: 0%;
     padding-left: 30px;
+    margin-top: 0%;
 }
 
 .pen{
@@ -211,3 +168,59 @@ img{
     
 }
 
+@media screen and (max-width: 480px){
+.c1{background-color: #e89da4;
+    width: 100%;
+    height: 1680px;
+    
+   
+}
+
+
+.c2{
+    width: 780px;
+    height: 1300px;
+    text-align: center;
+    
+   
+}
+
+.market, .code, .hadith, .arabic, h1, h3,  .ur_task, .task, .add{
+    width: 700px;
+    height: 64px;
+    font-size: 28px;
+    align-items: stretch;
+  
+
+}
+   .c-in {
+    width: 715px;
+    height: 64px;
+   
+   
+   
+   }
+    .pen, .x {
+     width: 40px;
+     height: 40px;
+     top: 10px; 
+    }
+    .c2{
+        gap: 50px;
+    }
+
+ .add {
+    width: 50px;
+    height: 50px; 
+    top: 20%;
+    right: 10px;
+    
+ };
+ img{
+    width: 60em;
+    height: 60em;
+    /* top: 696px;
+    left: 643px; */
+    opacity: 60%;
+}
+}
